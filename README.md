@@ -1,6 +1,8 @@
 # CPSC448Report
 # Report: Procedural Locomotion Planning via Reinforcement Learning
+
 Written By: Radman Rakhshandehroo 
+
 Supervisor: Michiel van de Panne, Nick Ioannidis
 
 ## 1. Project Overview
