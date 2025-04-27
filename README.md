@@ -1,5 +1,8 @@
 # CPSC448Report
 # Report: Procedural Locomotion Planning via Reinforcement Learning
+Written By: Radman Rakhshandehroo 
+Supervisor: Michiel van de Panne, Nick Ioannidis
+
 ## 1. Project Overview
 
 This report details the development and implementation of a novel system attempting to enable a 3D bipedal robot (`Walker3D`) to navigate complex, dynamically generated environments. We use **procedural footstep generation** and **Reinforcement Learning (RL)**, specifically Q-learning, allowing the agent to intelligently select viable paths from multiple runtime-generated options. This is a modification and simplification of previous work done in the MOCCA Lab where we remove the diffusion model used for path and foothold location generation and swap it with the procedural step generation. Furthermore, we simplify and significantly reduce the size of height-map from a $32*32$ grid. We retain the idea of the viability filters and use them to determine the best plans that allow us to choose the best sequences of steps that would allow us to navigate challenging terrain. Once the plans are chosen by the viability filters, these plans would be passed to ALLSTEPS, a high frequency robust locomotion policy. 
