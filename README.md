@@ -115,7 +115,7 @@ graph TD
     style Policy fill:#f6a5a5,stroke:#333,stroke-width:2px,color:#000
     style Selection fill:#d3d3d3,stroke:#333,stroke-width:1px,color:#000
 ```
-## B. Renders of learning
+## C. Renders of learning
 Note that the renders below are intended as demonstration of how the training process 'looks'. Due to the bug mentioned in project scope, curriculums beyond initial flat ground one have not been reached yet but the mechanism for them has been implemented. 
 
 Sphere Color guide: 
@@ -123,7 +123,7 @@ Sphere Color guide:
 - ${\color{grey}{Grey}}$ spheres indicates sets of plans (and their footholds) that were not chosen. 
 - ${\color{orange}{Orange}}$ spheres indicates the steps and foothold position of the plan that was chosen.
 - ${\color{green}{Green}}$ spheres indicate the heightmap locations. the intensity increases if the sampled point has higher elevation (along z axis).
-### B1: Render of learning on flat ground 
+### C1: Render of learning on flat ground 
 ```python
 python train_procedural_q.py --exclude_plan_heights --render
 ```
@@ -134,7 +134,7 @@ https://github.com/user-attachments/assets/2b80e45a-0b7d-4aa9-b0e7-346e6443d396
 
 
 
-### B2: Render of learning on boxed environment
+### C2: Render of learning on boxed environment
 ```python
 python train_procedural_q.py --render
 ```
