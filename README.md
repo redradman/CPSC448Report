@@ -78,11 +78,11 @@ graph TD
     M --> N[Return Generated Plan];
 
     %% Styling
-    style A fill:#ccf,stroke:#333,stroke-width:2px
-    style D fill:#lightgrey,stroke:#333,stroke-width:1px
-    style H fill:#lightgrey,stroke:#333,stroke-width:1px
-    style I fill:#ccf,stroke:#333,stroke-width:1px
-    style N fill:#ccf,stroke:#333,stroke-width:2px
+    style A fill:#a8d0e6,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#d3d3d3,stroke:#333,stroke-width:1px,color:#000
+    style H fill:#d3d3d3,stroke:#333,stroke-width:1px,color:#000
+    style I fill:#a8d0e6,stroke:#333,stroke-width:1px,color:#000
+    style N fill:#a8d0e6,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ## B. Architecture diagram 
