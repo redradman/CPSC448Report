@@ -3,7 +3,7 @@
 
 Written By: Radman Rakhshandehroo 
 
-Supervisor: Dr. Michiel van de Panne, Nick Ioannidis
+Supervisor: Dr. Michiel van de Panne, Nick Ioannidis. With many thanks to both of them for supporting this project and providing valuable feedback.
 
 ## 1. Project Overview
 
