@@ -106,9 +106,9 @@ graph TD
     SelectedPlan --> Targets;
 
     %% Styling
-    style Critic fill:#ccf,stroke:#333,stroke-width:2px
-    style Policy fill:#fcc,stroke:#333,stroke-width:2px
-    style Selection fill:#lightgrey,stroke:#333,stroke-width:1px
+    style Critic fill:#a8d0e6,stroke:#333,stroke-width:2px,color:#000
+    style Policy fill:#f6a5a5,stroke:#333,stroke-width:2px,color:#000
+    style Selection fill:#d3d3d3,stroke:#333,stroke-width:1px,color:#000
 ```
 ## B. Renders of learning
 Note that the renders below are intended as demonstration of how the training process 'looks'. Due to the bug mentioned in project scope, curriculums beyond initial flat ground one have not been reached yet but the mechanism for them has been implemented. 
