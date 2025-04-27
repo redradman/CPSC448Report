@@ -122,7 +122,7 @@ Sphere Color guide:
 - ${\color{red}{Red}}$ sphere is the start point of the humanoid. 
 - ${\color{grey}{Grey}}$ spheres indicates sets of plans (and their footholds) that were not chosen. 
 - ${\color{orange}{Orange}}$ spheres indicates the steps and foothold position of the plan that was chosen.
-- ${\color{green}{Green}}$ spheres indicate the heightmap locations. the intensity increases if the position has higher elevation.
+- ${\color{green}{Green}}$ spheres indicate the heightmap locations. the intensity increases if the sampled point has higher elevation (along z axis).
 ### B1: Render of learning on flat ground 
 ```python
 python train_procedural_q.py --exclude_plan_heights --render
