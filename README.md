@@ -119,14 +119,29 @@ Sphere Color guide:
 - <span style="color:orange">Grey Spheres</span> indicates the steps and foothold position of the plan that was chosen.
 - <span style="color:green">Green Spheres</span> indicate the heightmap locations. the intensity increases if the position has higher elevation
 ### B1: Render of learning on flat ground 
-Flat ground is curriculum level 0.
 ```python
 python train_procedural_q.py --exclude_plan_heights --render
 ```
-The heights are excluded from the plans. 
+Flat ground is curriculum level 0. The heights are excluded from the plans. Demo:
+
+
+https://github.com/user-attachments/assets/2b80e45a-0b7d-4aa9-b0e7-346e6443d396
+
+
 
 ### B2: Render of learning on boxed environment
-Boxed environment with box height of 0.4 is curriculum level 3.
 ```python
 python train_procedural_q.py --render
 ```
+Boxed environment with box height of 0.4 is curriculum level 3. Demo: 
+
+
+
+https://github.com/user-attachments/assets/f591ad7a-d65f-43fd-8a84-87eeaa056ae3
+
+
+
+
+
+
+
