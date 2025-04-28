@@ -127,7 +127,7 @@ Sphere Color guide:
 ```python
 python train_procedural_q.py --exclude_plan_heights --render
 ```
-Flat ground is curriculum level 0. The heights are excluded from the plans. Demo:
+Flat ground is curriculum level 0. The heights are excluded from the plans. Learning Demo:
 
 
 https://github.com/user-attachments/assets/2b80e45a-0b7d-4aa9-b0e7-346e6443d396
@@ -138,7 +138,7 @@ https://github.com/user-attachments/assets/2b80e45a-0b7d-4aa9-b0e7-346e6443d396
 ```python
 python train_procedural_q.py --render
 ```
-Boxed environment with box height of 0.4 is curriculum level 3. Demo: 
+Boxed environment with box height of 0.4 is curriculum level 3. Learning Demo: 
 
 
 
